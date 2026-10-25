@@ -1,4 +1,4 @@
-![Abstract electronics and measurement banner](assets/profile-banner.png)
+![Abstract electronics and measurement banner](https://raw.githubusercontent.com/fluxandfirmware/fluxandfirmware/main/assets/profile-banner.png)
 
 # Circuits, Power & Firmware
 
