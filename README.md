@@ -45,3 +45,12 @@ A compact supply project for breadboard prototyping, with selectable 5 V and 3.3
 
 I’m building my project portfolio one documented design at a time.  
 [See the animated portfolio →](https://lithiumvision.github.io/)
+
+---
+
+## Contact
+
+For internship opportunities, project questions, or collaboration:
+
+- **Email:** [i.chikhi2005@gmail.com](mailto:i.chikhi2005@gmail.com)
+- **CV:** [Download my CV (PDF)](https://lithiumvision.github.io/assets/ilyass-electrical-engineering-cv.pdf)
