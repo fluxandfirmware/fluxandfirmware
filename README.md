@@ -6,6 +6,8 @@
 
 A hands-on project log covering power electronics, PCB design, circuit simulation, prototyping, and embedded systems.
 
+**Portfolio:** [fluxandfirmware.github.io](https://fluxandfirmware.github.io)
+
 ## Featured builds
 
 | Project | What it does |
