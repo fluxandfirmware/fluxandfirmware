@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Flux and Firmware — electrical engineering projects</title>
+  <desc id="desc">An animated circuit board with flowing cyan signals and a waveform.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111e"/>
+      <stop offset="1" stop-color="#101b2b"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="0" x2="1">
+      <stop stop-color="#20d9c2"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#8aa4c0" stroke-opacity=".08" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.3" fill="#9bb8d4" fill-opacity=".15"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="23" fill="none" stroke="#77a2c8" stroke-opacity=".24"/>
+  <path d="M0 292H405L438 259H535" fill="none" stroke="#24415b" stroke-width="2"/>
+  <path d="M0 308H362L400 270H508" fill="none" stroke="#24415b" stroke-width="2"/>
+  <text x="68" y="82" fill="#72e8d5" font-family="monospace" font-size="16" letter-spacing="4">ELECTRICAL ENGINEERING / PROJECT LOG</text>
+  <text x="64" y="157" fill="#f3f7fb" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="700" letter-spacing="1">FLUX &amp; FIRMWARE</text>
+  <text x="68" y="198" fill="#a9bdce" font-family="Arial, Helvetica, sans-serif" font-size="20">Power electronics · PCB design · Embedded systems</text>
+  <g fill="#d5e2ee" font-family="monospace" font-size="13" letter-spacing="1.2">
+    <text x="68" y="263">DESIGN</text><text x="178" y="263">→</text>
+    <text x="210" y="263">BUILD</text><text x="310" y="263">→</text>
+    <text x="342" y="263">MEASURE</text><text x="456" y="263">→</text>
+    <text x="488" y="263">REFINE</text>
+  </g>
+  <g fill="none" stroke="url(#trace)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M570 88H656V122H722V76H795V106H862V72H960V126H1120"/>
+    <path d="M570 178H660V207H750V162H840V192H915V226H1008V178H1120"/>
+    <path d="M570 270H690V244H778V278H875V252H980V276H1120"/>
+  </g>
+  <g fill="#0a1624" stroke="#4fe3cf" stroke-width="2">
+    <circle cx="656" cy="88" r="5"/><circle cx="722" cy="122" r="5"/><circle cx="862" cy="106" r="5"/>
+    <circle cx="660" cy="178" r="5"/><circle cx="840" cy="207" r="5"/><circle cx="1008" cy="226" r="5"/>
+    <circle cx="690" cy="270" r="5"/><circle cx="875" cy="278" r="5"/><circle cx="980" cy="252" r="5"/>
+  </g>
+  <g fill="#07111e" stroke="#75a6d2" stroke-width="2">
+    <rect x="970" y="40" width="150" height="58" rx="10"/>
+    <rect x="1015" y="150" width="105" height="58" rx="10"/>
+    <rect x="1040" y="247" width="80" height="48" rx="10"/>
+  </g>
+  <g fill="#b6cbe0" font-family="monospace" text-anchor="middle">
+    <text x="1045" y="65" font-size="11">POWER STAGE</text><text x="1045" y="83" font-size="13">DC / DC</text>
+    <text x="1067" y="174" font-size="11">CONTROL</text><text x="1067" y="192" font-size="13">MCU</text>
+    <text x="1080" y="276" font-size="11">PCB</text><text x="1080" y="289" font-size="9">REV A</text>
+  </g>
+  <path d="M570 88H656V122H722V76H795V106H862V72H960V126H1120" fill="none" stroke="#d6fff7" stroke-width="3" stroke-dasharray="18 600" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="620" to="0" dur="4.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M570 178H660V207H750V162H840V192H915V226H1008V178H1120" fill="none" stroke="#b9d7ff" stroke-width="3" stroke-dasharray="18 600" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="620" to="0" dur="5.2s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="570" cy="88" r="5" fill="#bafff3" filter="url(#glow)">
+    <animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M792 315h52l14-18 20 34 21-48 20 32h38" fill="none" stroke="#4fe3cf" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="stroke-dasharray" values="0 220;220 0" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <text x="68" y="319" fill="#718ba5" font-family="monospace" font-size="11" letter-spacing="1.4">VOLTS IN MOTION — IDEAS MADE TESTABLE</text>
+</svg>
