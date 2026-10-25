@@ -1,3 +1,5 @@
+![Abstract electronics and measurement banner](assets/profile-banner.png)
+
 # Circuits, Power & Firmware
 
 An electrical engineering notebook focused on practical electronics projects, from circuit design and PCB layout to assembly, testing and embedded software.
