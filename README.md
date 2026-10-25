@@ -1,14 +1,20 @@
-![Abstract electronics and measurement banner](https://raw.githubusercontent.com/fluxandfirmware/fluxandfirmware/main/assets/profile-banner.png)
+![Animated circuit banner — Flux & Firmware](https://raw.githubusercontent.com/fluxandfirmware/fluxandfirmware/main/assets/animated-circuit.svg)
 
-# Circuits, Power & Firmware
+# Flux & Firmware
 
-An electrical engineering notebook focused on practical electronics projects, from circuit design and PCB layout to assembly, testing and embedded software.
+**Electrical engineering projects, from first schematic to measured hardware.**
 
-## Featured projects
+A hands-on project log covering power electronics, PCB design, circuit simulation, prototyping, and embedded systems.
 
-- [**XL6019 Adjustable Boost Converter**](https://github.com/fluxandfirmware/xl6019-boost-converter) — Adjustable DC–DC boost converter targeting approximately 30 V, with Proteus source files and a Gerber/CAM export.
-- [**Dual-Rail Breadboard Power Supply**](https://github.com/fluxandfirmware/breadboard-power-supply-5v-3.3v) — PCB project for 5 V and 3.3 V rails, with Proteus designs and board-layout images.
+## Featured builds
 
-## Areas of interest
+| Project | What it does |
+|---|---|
+| [**XL6019 adjustable boost converter**](https://github.com/fluxandfirmware/xl6019-boost-converter) | DC–DC boost converter targeting approximately 30 V, with Proteus design files and Gerber/CAM exports. |
+| [**Dual-rail breadboard power supply**](https://github.com/fluxandfirmware/breadboard-power-supply-5v-3.3v) | Compact 5 V and 3.3 V supply project, with Proteus files and board-layout material. |
 
-Power electronics · PCB design · Embedded systems · Low-level C · Hardware prototyping
+## Engineering interests
+
+**Power electronics** · **PCB design** · **Embedded systems** · **Low-level C** · **Hardware testing**
+
+`DESIGN → BUILD → MEASURE → REFINE`
